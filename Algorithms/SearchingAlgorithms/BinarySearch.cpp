@@ -4,7 +4,7 @@ using namespace std;
 int BinarySearch(vector<int> arr, int key)
 {
     int low = 0, high = arr.size() - 1;
-    while (low < high)
+    while (low <= high)
     {
         int mid = (low + high) / 2;
         if (arr[mid] == key)
